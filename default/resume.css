@@ -6,7 +6,7 @@ html {
 body {
 	text-align: center;
 	width: 100%;
-	font-family: "Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+	font-family: "SF Pro Text", "Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-size: 1rem;
 	margin: 0;
@@ -23,6 +23,10 @@ a:hover {
 	text-decoration: underline
 }
 
+.fa {
+	color: #bbb;
+	margin-right:0.3em;
+}
 .container {
 	/*margin-left: auto;
 	margin-right: auto;
@@ -55,9 +59,9 @@ a:hover {
 header {
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 0.1rem solid #adb5bd;
-/*	padding-top: 2.2rem; */
-	padding-bottom: 2.2rem
+/*	border-bottom: 0.1rem solid #adb5bd;
+	padding-top: 2.2rem;
+	padding-bottom: 2.2rem */
 }
 
 .name-wrapper {
@@ -114,6 +118,13 @@ header {
 	}
 }
 
+
+summary {
+	border-bottom: 0.1rem solid #adb5bd;
+	hyphens: auto;
+		padding-bottom: 2.4rem;
+}
+
 section {
 	display: flex;
 	padding-top: 2.4rem;
@@ -124,7 +135,7 @@ section {
 }
 
 .section-title {
-	line-height: 1;
+	line-height: 0.65;
 	font-size: 1.6rem;
 	text-align: left;
 	min-width: 10rem
@@ -153,9 +164,9 @@ section {
 
 .block-title {
 	float:left;
-	font-size: 1.2rem;
+/*	font-size: 1.2rem;*/
 	margin-bottom: .4rem;
-	font-weight: bold
+/*	font-weight: bold */
 }
 
 .block-subtitle {
@@ -166,6 +177,7 @@ section {
 }
 
 .block-content {
+	color: #999;
 	clear: both;
 	font-size: 1rem;
 	line-height: 1.5
